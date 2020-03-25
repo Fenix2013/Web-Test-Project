@@ -1,0 +1,96 @@
+.header{
+  font-size: 30px;
+  background: linear-gradient(#F66308 50%,#53545A 50%);
+  color: #bce0ee;
+}
+
+footer {
+  color: blue;
+
+}
+
+header,section,footer,aside,nav,ul,article {
+  display: block;
+}
+
+body {
+  text-align: center;
+}
+
+.join {
+  width: 960px;
+  background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+  margin: 15px auto;
+  padding: 50px
+}
+
+.menu li{
+  list-style: none;
+  padding: 15px;
+  color: blue;
+  font: bold 14px verdana;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+time {
+  color: #5EA096;
+  font: bold 14px verdana;
+}
+
+.issues li{
+  list-style:  none;
+  padding: 5px;
+  color: blue;
+  font: bold 14px verdana;
+}
+
+.chapters h2{
+  font-size: 40px;
+}
+
+.chapters h3{
+  font-size: 30px;
+}
+
+.rights {
+  font-size: 30px;
+  font-weight: bold;
+  clear: both;
+  background: lightblue;
+}
+
+.chapters{
+  margin: 20px;
+  width: 600px;
+  float: left;
+}
+
+.column {
+  width: 276px;
+  float: left;
+  margin: 20px;
+  margin-top: 70px;
+}
+
+.article footer{
+  margin-bottom: 20px;
+}
+
+.video h3{
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.photo img{
+  margin-top: 30px;
+}
+
+.video video{
+  width: 300px;
+  border: 4px solid #53545A ;
+}
+
+.video controls{
+  color: orange;
+}

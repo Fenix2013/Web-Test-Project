@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kinvest Trade Academy</title>
+    <meta name="description" content="How to run Monerod at local node">
+    <meta name="author:" content="Kinvest Trade">
+    <meta name="keywords" content="Monero,Monerod,daemon,wallet,GUI">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <div class="join">
+      <header class="header">
+      <h1>Monero GUI Wallet</h1>
+      </header>
+
+      <nav class="menu">
+        <li>Topic</li>
+        <li>Support</li>
+        <li>Contact</li>
+      </nav>
+
+      <section class="chapters">
+        <article>
+        <h2>How to run Monerod at local node</h2>   <time datetime="05-02-2020">Published 05-02-2020</time>
+
+      <ul class="issues">
+        <li>Introduction</li>
+        <li>Download & verification</li>
+        <li>Installation</li>
+      </ul>
+
+          <h3>Introduction</h3>
+          <p> Recently, I have noticed in various discussions on the Internet forums that quite a lot of people have a problem running daemon in new versions of the Monero GUI Wallet.However, nowhere I found a full explanation that would clearly explain even to the inexperienced users how to solve this problem, so I decided to write this short article.Anyone who decided to download and install any of the latest Monero GUI Wallet versions (e.g. version 0.15.0.1 or 0.15.0.2 - Carbon Chamaeleon) has certainly encountered this problem.</p>
+        </article>
+        <article>
+          <h3>Download & verification</h3>
+          <p> After downloading and verifying, you can try to run the daemon on a local node (attention, never install and run it without prior verification, as there is a risk of installing malware or malicious software!) Well, if we have any antivirus software installed (e.g. Windows Defender, Avast Antivirus, etc.). ), you will be almost 100% likely to see this message: "Daemon failed to start, please check your wallet and daemon log for errors.You can also start monerod manually."Also, if you want to search for a monerod in your files, you will find that it is not there. The problem is caused by your antivirus program, which has rated the monerod as potentially dangerous and harmful application, and placed it in a virus chest where it was blocked.</p>
+        </article>
+        <article class="article">
+          <h3>Installation</h3>
+          <p> The solution to this problem is simple, you need to locate in your antivirus program where the monerod file is stored (it will be quarantined or put in the virus chest, it depending on the type of antivirus program you are using), then unblock it and add it to the exclusion list, and return it back to the application Monero GUI Walet (it is likely that there will be other Monero GUI Wallet files that your antivirus program has identified as potential threats, they need to be handled in the same way as a monerod). Finally, after you do that,you only have to open your wallet and run the daemon again.This time it should connect seamlessly to the monerod and should start the blockchain download process (if it fails to connect, it needs to be restarted, because sometimes the connection fails, but this time you start it).</p>
+                <p> That's all, and I hope my advice has helped you and you'll be able to enjoy your Monero GUI Wallet running at a local node.</p>
+        <footer>Comments (0)</footer>
+        <img src="C:\Users\marek\Downloads\Monero\How-To-Use-Monero-XMR-With-Ledger-Nano-S-Or-X-300x150.png" alt="Monero">
+        <address>
+        <a href="http://getmonero.org">Visit Monero</a>
+        </address>
+      </article>
+      </section>
+
+      <aside class="column">
+        <img src="C:\Users\marek\Desktop\Gitproject\Images\website_logo_solid_background.png" alt="Kinvest Trade">
+        <blockquote cite="http://coinguides.org/daemon-failed-to-start-error-fix/">
+          <a href="http://coinguides.org/daemon-failed-to-start-error-fix/">Message 1</a>
+        </blockquote>
+
+        <blockquote cite="http://github.com/monero-project/monero/issues/6366">
+          <a href="http://github.com/monero-project/monero/issues/6366">Message 2</a>
+        </blockquote>
+
+        <article class="photo">
+          <img src="C:\Users\marek\Desktop\Gitproject\Images\monero-logo-800.png" alt="Monero">
+        </article>
+
+        <div class="video">
+          <h3>My video</h3>
+          <video src="Video/Trial.mp4" autoplay controls class="orangebar"></video>
+        </div>
+      </aside>
+
+      <footer class="rights">Copyright© 2020</footer>
+    </div>
+
+  </body>
+</html>
