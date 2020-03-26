@@ -70,7 +70,7 @@ time {
   width: 276px;
   float: left;
   margin: 20px;
-  margin-top: 70px;
+  margin-top: 150px;
 }
 
 .article footer{
@@ -88,5 +88,4 @@ time {
 
 .video video{
   width: 300px;
-  border: 4px solid #53545A ;
 }
